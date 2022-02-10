@@ -44,7 +44,7 @@ orange.small
    
 plate, bento <- 모든 plate와 모든 bento 선택   
    
-*  
+`*  
 모든 태그 선택   
     
 plate *  
