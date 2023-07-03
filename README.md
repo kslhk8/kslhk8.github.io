@@ -1,2 +1,2 @@
-##### 블로그 url   
-kslhk8.github.io
+##### 개발 공부 블로그 url   
+https://kslhk8.github.io
