@@ -15,12 +15,12 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Development Study Blog"
+locale                   : "ko-KR"
+title                    : "kslhk8 Dev Notes"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "프론트엔드와 앱·웹 연동, 그리고 공부한 것들을 기록하는 공간"
 name                     : "kslhk8"
-description              : "Development Study About Alogrithm, JS, Vue, React Native, React"
+description              : "Dev Notes: Next.js, React, JavaScript, Vue, React Native, Algorithm"
 url                      : "https://kslhk8.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -59,7 +59,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -99,13 +99,12 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
-
 # Site Author
 author:
-  name             : "kslhk8"
+  name             : #"kslhk8"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Development Study About Alogrithm, JS, Vue, React Native, React"
-  location         : "Somewhere"
+  bio              : #"프론트엔드와 앱·웹 연동, 그리고 공부한 것들을 기록하는 공간"
+  location         :
   email            :
   links:
     - label: "Email"
@@ -284,7 +283,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
+      show_date: true
       comments: # true
       share: true
       related: true

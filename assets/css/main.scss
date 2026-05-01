@@ -6,3 +6,14 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Custom styles */
+.archive__item-title {
+  a {
+    color: #52adc8;
+    
+    &:hover {
+      color: #3d8ca8;
+    }
+  }
+}
