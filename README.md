@@ -1,2 +1,3 @@
-##### 개발 공부 블로그 url   
-https://kslhk8.github.io
+현재 블로그는 아래 주소에서 운영 중입니다.
+
+https://kimyongbeom-log.vercel.app
